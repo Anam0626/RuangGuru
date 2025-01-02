@@ -1,0 +1,87 @@
+body{
+    background-color:whitesmoke;
+}
+
+.container{
+    background-color: white;
+    width: 60%;
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 100px;
+}
+
+#form-student{
+    width: 100%;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#form-student table{
+    width: 100%;
+}
+
+#form-student table label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#input-name{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#input-date{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#input-gender{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#input-prody{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#add-btn {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#add-btn:hover {
+    background-color: #0056b3;
+}
+
+#table-student{
+    width: 100%;
+}
+
+#table-student th,td{
+    padding: 8px;
+}
+
+#table-student .delete{
+    color: red;
+}
+
+

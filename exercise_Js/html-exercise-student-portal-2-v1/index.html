@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css">
+        <title>Student Portal</title>
+    </head>
+    <body>
+        <header>
+            <h4>Student Portal</h4>
+            <div class="right">
+                <h4>Admin</h4>
+                <img src="./assets/Screenshot (76).png" alt="" width="50" height="50">
+            </div>
+        </header>
+        <div class="container">
+            <form class="student-form">
+                <div class="form-group-full-width">
+                    <label for="Fullname">Fullname</label>
+                    <input type="text">
+                </div>
+                <div class="form-group">
+                    <div class="half">
+                        <label for="Birth Date">Birth Date</label>
+                        <input type="date">
+                    </div>
+                    <div class="half">
+                        <label for="Gender">Gender</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="form-group-full-width">
+                    <label for="Program Study">Program Study</label>
+                    <input type="text">
+                </div>
+            </form>
+            <button type="submit">Add Student</button>
+            <br>
+            <hr>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>NO</th>
+                        <th>FULLNAME</th>
+                        <th>BIRTH DATE</th>
+                        <th>GENDER</th>
+                        <th>STUDENT ID</th>
+                        <th>FACULTY</th>
+                        <th>PROGRAM STUDY</th>
+                        <th>OPTION</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Djarot Purnomo</td>
+                        <td>28/10/1973</td>
+                        <td>Male</td>
+                        <td>2011320090</td>
+                        <td>Fakultas Ilmu Sosial dan Politik</td>
+                        <td>Administrasi Bisnis</td>
+                        <td style="color: red;">Delete</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Anshori Atmodiredjo</td>
+                        <td>28/10/1973</td>
+                        <td>Male</td>
+                        <td>2010310062</td>
+                        <td>Fakultas Ilmu Sosial dan Politik</td>
+                        <td>Administrasi Bisnis</td>
+                        <td style="color: red;">Delete</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
